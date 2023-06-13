@@ -7,6 +7,8 @@ import UniqObj from "./level5/uniqobj"
 import TrimAll from "./level5/trimall"
 import GroupBy from "./level5/groupby";
 import MapKey from "./level5/MapKey";
+import SwitchOrder from "./level5/switchOrder";
+import SumAll from "./level5/sumAll";
 
 const router = () => {
   return (
@@ -20,6 +22,8 @@ const router = () => {
         <Route path="/trimall" element={<TrimAll />} />
         <Route path="/groupby" element={<GroupBy />} />
         <Route path="/MapKey" element={<MapKey />} />
+        <Route path="/switchOrder" element={<SwitchOrder />} />
+        <Route path="/sumAll" element={<SumAll />} />
       </Routes>
     </div>
   );

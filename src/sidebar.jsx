@@ -11,6 +11,8 @@ const sidebar = () => {
       <NavLink to="/trimall">Trim All</NavLink>
       <NavLink to="/groupby">GroupBy</NavLink>
       <NavLink to="/MapKey">MapKey</NavLink>
+      <NavLink to="/switchOrder">Switch Order</NavLink>
+      <NavLink to="/sumAll">Sum All</NavLink>
     </div>
   );
 };
